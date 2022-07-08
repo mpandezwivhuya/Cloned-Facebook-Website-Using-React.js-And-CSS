@@ -1,0 +1,185 @@
+*{
+    margin:0;
+    padding: 0;
+
+}
+
+.fb-lite{
+   background:black;
+   width: 100%;
+   height: 310px;
+   
+}
+
+.img{
+    float:right;
+   padding-right: 150px 10px;
+   height:300px;
+   width:1190px;
+}
+
+.img-fb {
+    position: absolute;
+    margin-left: 210px;
+    width:100px;
+    top: 30px;
+}
+.head{
+    font-size: 29px;
+    position: absolute;
+    margin-left: 320px;
+    margin-top: 50px;
+    color: white;
+    font-weight: 300;
+    font-family: inherit;
+}
+.faster {
+    position: absolute;
+    margin: 7px 0 36px;
+    font-size: 18px;
+    font-weight: 300;
+    color: #9197a3;
+    margin-left:320px ;
+    margin-top: 100px;
+}
+#download-btn{
+    position: absolute;
+    background: #3578e5;
+    border-color: #3578e5;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 18px;
+    font-weight: bold;
+    height: 60px;
+    margin: 10px 10px 10px 0;
+    padding: 18px 31px 18px 31px;
+    display: inline-block;
+    text-decoration: none;
+    white-space: nowrap;
+    color: white;
+    margin-top: 160px;
+    margin-left:210px;
+
+}
+#download-btn:hover{
+    background-color: #42b72a;
+    border-color: #42b72a;
+}
+.google-btn{
+    position: absolute;
+    margin-top: 250px;
+    margin-left:210px;
+}
+.megabyte{
+    position: absolute;
+    margin-top: 268px;
+    color:white;
+    margin-left: 395px;
+    font-size: 18px;
+    color: #fff;
+    opacity: 0.65;
+    display: inline;
+}
+.down{
+    height:20px;
+    width:20px;
+    position: absolute;
+    margin-left:220px;
+    margin-top: 180px;
+}
+.python{
+    height: 400px;
+}
+.heading{
+    font-weight: 400;
+    font-size: 18px;
+    color: #141823;
+    line-height: 27px;
+    padding-top: 10px;
+    margin-left: 258px;
+    padding-left: 10px;
+}
+.text{
+    padding-left: 10px;
+    font-weight: 600;
+    color: #141823;
+    margin-top:30px;
+    margin-left: 258px;
+    font-family: inherit;
+}
+.number-one, .number-two, .number-three, .number-four, .number-five {
+    padding: 5px;
+    color: #333;
+    font-size: 15px;
+    font-family: inherit; 
+    margin-left: 258px;
+}
+#android{
+    padding: 10px;
+    margin-left: 258px;
+    margin-top: 20px;
+}
+#android-version{
+    margin-left: 268px;
+    margin-top: 2px;
+}
+#update{
+    padding: 10px;
+    margin-left: 258px;
+}
+#updated-date{
+    margin-left: 268px;
+    margin-top: 2px;
+}
+.contents {
+    height: 30vh;
+    background-color: #ffffff;
+}
+.top {
+    position: relative;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+ ol {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 10px 0;
+    
+}
+
+ ol:first-child {
+    border-bottom: 1px solid #dddfe2;
+}
+ ol:first-child li:last-child button {
+    background-color: #f5f6f7;
+    border: 1px solid #ccd0d5;
+    outline: none;
+    padding: 0 8px;
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+ ol li {
+    padding-right: 15px;
+    font-size: 12px;
+    
+}
+
+ ol li a {
+    text-decoration: none;
+    color: #385898;
+}
+
+ol li a:hover {
+    text-decoration: underline;
+}
+
+small {
+    font-size: 11px;
+    color: #737373;
+}
+
+

@@ -1,0 +1,154 @@
+
+main{
+    width: 90vw;
+    height: 100vh;
+    position: relative;
+    
+}
+
+
+.container{
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    position: absolute;
+    justify-content: space-around;
+    align-items: center;
+    left: 50%;
+    top:45%;
+    transform: translate(-50%, -50%);
+}
+
+.left, .right, form{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+.left{
+    width: 600px;
+    align-items: flex-start;
+}
+
+.right{
+    width:500px;
+    
+}
+.left p{
+    font-size: 30px;
+    color: #1c1e21;
+    font-family: "Roboto condensed", sans-serif;
+    
+}
+
+form{
+    background-color: white;
+    border-radius: 8px;
+    border: none;
+    display: flex;
+    padding: 10px;
+    width: 396px;
+    height: 390px;
+    margin-top:200px ;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0, 2), 0 6px 20px 0 rgba(0, 0, 0, 0, 19);
+}
+form input{
+    position: relative;
+    padding:19px;
+    width:332px;
+    border-radius: 5px;
+    border: 1px solid #dddfe2;
+    outline: none;
+    margin-bottom: 10px;
+    color: #1d2129;
+    font-size: 16px;
+}
+
+input:focus{
+    border-color: #1877f2;
+    box-shadow: 0 0 0 2px #e7f3ff;
+
+}
+
+.right #Login-Button{
+    background-color: #166fe5;
+    padding: 16px;
+    text-align: center;
+    text-decoration: none;
+    width: 332px;
+    border-radius: 6px;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    border-color: #365899;
+    margin: 5px 0;
+    transition: 0.5s;
+}
+.right #Login-Button:hover{
+    background-color: #166fe5;
+}
+
+#Forget-password{
+    display: inline-block;
+    margin: 15px 0;
+    text-decoration: none;
+    color: #1877f2;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 14px;
+}
+#Forget-password:hover{
+    text-decoration: underline;
+}
+
+.Sign-up{
+    padding: 10px;
+    border-top: 1px solid #999;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+}
+.Sign-up #Sign-up-button{
+    background-color: #42b72a;
+    padding: 19px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 7px;
+    color: white;
+    font-size: 17px;
+    font-family: Arial;
+    font-weight: 600;
+    transition: 0.5s;
+    margin-top: 15px;
+}
+.Sign-up #Sign-up-button:hover{
+    background-color: green;
+
+}
+
+.right p{
+
+        font-family: Arial;
+        font-size: 15px;
+        margin-top: 20px;
+        
+}
+
+.right .create{
+    cursor: pointer;
+    text-decoration: none; 
+    font-family: SFProText-Semibold, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: #1c1e21;
+}
+
+.right .create:hover{
+    text-decoration: underline;
+     
+}
+
+
+
+
